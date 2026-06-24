@@ -1,0 +1,43 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.main
+{
+    display: grid;
+    grid-template-rows: 100px 150px 180px 100px;
+    grid-template-columns: repeat(3,150px)1fr;
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+}
+
+.navbar
+{
+    background-color: orangered;
+    grid-column: 1/5;
+}
+.box
+{
+    background-color: aqua;
+}
+.side
+{
+    background-color: crimson;
+    grid-row: 2/4;
+    grid-column: 4/5;
+}
+.section
+{
+    background-color: greenyellow;
+    grid-row: 3/4;
+    grid-column: 1/4;
+}
+.footer
+{
+    background-color: black;
+    grid-column: 1/-1;
+}

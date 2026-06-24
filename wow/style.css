@@ -1,0 +1,20 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    transition: 0.7s;
+}
+
+p
+{
+    text-align: justify;
+}
+
+div
+{
+    height: 350px;
+    width: 780px;
+    background-color: yellow;
+    margin: auto;
+}
